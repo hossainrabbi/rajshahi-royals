@@ -37,7 +37,7 @@ const Player = (props) => {
           <small>Salary: {salary}</small>
         </p>
         <button
-          className="btn btn-success mt-3"
+          className="btn btn-warning mt-3"
           onClick={() => handleBtnClick(props.player)}
         >
           <FontAwesomeIcon icon={faUserPlus} /> Add Player

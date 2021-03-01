@@ -22,8 +22,8 @@ const AddedPlayers = (props) => {
           </tr>
         </thead>
         <tbody>
-          {addedPlayer.map((player) => (
-            <tr>
+          {addedPlayer.map((player, index) => (
+            <tr key={index}>
               <th scope="row">{player.name}</th>
               <td>${player.salary}</td>
             </tr>
