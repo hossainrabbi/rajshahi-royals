@@ -5,11 +5,11 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <div className="Header">
+    <div className="Header mb-5">
       <div className="logo text-center py-2">
         <img src={logo} alt="logo" />
       </div>
-      <div className="container-fluid bg-warning py-2">
+      <div className="container-fluid border border-warning py-2">
         <h2 className="text-center">Rajshahi Royals Squad / Players</h2>
       </div>
     </div>
